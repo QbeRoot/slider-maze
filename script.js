@@ -2,7 +2,8 @@ var select = document.getElementById('level'),
 	slider = document.getElementById('slider'),
 	levels = [
 	function (x) { return x },
-	function (x) { return x + 1 }
+	function (x) { return x + 1 },
+	function (x) { return 11 - x }
 ]
 
 for (var i = 0, l = levels.length; i < l; ++i) {
